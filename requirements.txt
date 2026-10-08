@@ -1,0 +1,11 @@
+# Pinned versions this project was built and tested with (Python 3.12, Apple Silicon).
+sentence-transformers==6.1.0   # simple .encode() API for EmbeddingGemma 2 (needs >= 6.1)
+transformers==5.19.0           # model + image processor implementation
+torch==2.14.1                  # runs the model (uses Apple GPU via MPS when available)
+torchvision==0.29.1            # required by the EmbeddingGemma 2 image processor
+chromadb==1.5.9                # local, file-based vector database
+streamlit==1.65.0              # web UI
+pillow==12.3.0                 # image loading / thumbnails
+pillow-heif==1.8.0             # adds HEIC (iPhone photo) support to Pillow
+av==19.0.1                     # decodes audio (incl. iPhone .m4a) with no ffmpeg install needed
+pypdf==6.19.0                  # reads text from PDFs (pure Python)

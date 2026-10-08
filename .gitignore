@@ -1,0 +1,14 @@
+# Python environment and caches
+.venv/
+__pycache__/
+
+# Rebuilt from your files by indexing; holds paths to your own files
+file_index/
+
+# Personal test files (voice memos, photos, stock videos): not published
+rawphotoset/
+
+# Local editor/assistant settings
+.claude/
+
+.DS_Store

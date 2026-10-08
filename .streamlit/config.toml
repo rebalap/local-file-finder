@@ -1,0 +1,16 @@
+# Streamlit settings for this project.
+[server]
+address = "localhost"     # only this laptop can open the app (not others on your Wi-Fi)
+headless = true              # skip the first-run email prompt; open http://localhost:8501 yourself
+
+[browser]
+gatherUsageStats = false     # don't send usage statistics to Streamlit (keeps the app fully offline)
+
+# Violet accent for buttons, toggles and selected filters (matches the header).
+# Set for both the light and dark theme, so the app still follows your
+# computer's light/dark mode. (A plain [theme] section would force light mode.)
+[theme.light]
+primaryColor = "#7C3AED"
+
+[theme.dark]
+primaryColor = "#A78BFA"     # a lighter violet reads better on a dark background
