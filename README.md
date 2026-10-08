@@ -5,6 +5,9 @@ them in plain English, for example "kids playing in the snow", "the voice memo a
 booking the dentist", "a woman riding a bicycle" or "tips for night trains". It runs
 fully offline: no cloud APIs, and your files and searches never leave your machine.
 
+For the full tech stack, architecture diagram, data model, design decisions and
+build history, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## How it works
 
 1. **Indexing.** The app walks a folder (and its subfolders) for photos (`.jpg`,
